@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout 1</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="flex flex-row gap-8 h-screen ">
+  <section id="green" class="bg-green-300 text-black p-4 order-3 w-1/5 h-1/2">
+    <p>GREEN</p>
+  </section>
+  <section id="yellow" class="bg-yellow-200 text-black p-4 order-1 w-1/5 flex flex-col items-center h-1/2">
+    <p>YELLOW</p>
+    <ul class="list-none p-2 rounded">
+      <li class="bg-white m-4 mb-8 rounded p-4">1</li>
+      <li class="bg-white m-4 mb-8 rounded p-4">2</li>
+      <li class="bg-white m-4 mb-8 rounded p-4">3</li>
+      <li class="bg-white m-4 mb-8 rounded p-4">4</li>
+    </ul>
+  </section>
+  <section id="orange" class="bg-yellow-500 text-black p-4 order-4 w-2/5 h-1/2">
+    <p>ORANGE</p>
+  </section>
+  <section id="red" class="bg-red-500 text-black p-4 h-1/2 order-2 w-1/5 flex flex-col items-center">
+    <p>RED</p>
+    <ul>
+      <li class="bg-white m-4 mb-8 rounded p-4">A</li>
+      <li class="bg-white m-4 mb-8 rounded p-4">B</li>
+      <li class="bg-white m-4 mb-8 rounded p-4">C</li>
+      <li class="bg-white m-4 mb-8 rounded p-4">D</li>
+    </ul>
+  </section>
+  <section id="blue" class="bg-blue-500 text-black p-4 order-5 w-1/5 h-1/2">
+    <p>BLUE</p>
+  </section>
+</body>
+
+</html>
